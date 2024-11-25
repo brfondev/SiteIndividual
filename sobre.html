@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+    <style>
+        body {
+            background-color: #f3f4f6;
+            color: #4b0082; /* Roxo */
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #6a0dad; /* Roxo escuro */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar {
+            margin: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: rgba(255, 204, 0, 0.2);
+            color: #6a0dad;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .content img {
+            max-width: 70%; /* Ajusta a largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-top: 20px; /* Espaço acima da imagem */
+            transition: transform 0.5s; /* Animação suave ao passar o mouse */
+        }
+
+        .content img:hover {
+            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #6a0dad; /* Roxo escuro */
+        }
+
+        .resources, .testimonials {
+            margin-top: 30px;
+        }
+
+        blockquote {
+            border-left: 5px solid #6a0dad;
+            padding-left: 15px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sobre</h1>
+        <nav class="navbar">
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="estatisticas.html">Estatísticas</a>
+            <a href="apoio.html">Como Ajudar</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </div>
+    <div class="content">
+        <h2 data-aos="fade-up">O que é o Dia Internacional para a Eliminação da Violência Contra a Mulher?</h2>
+        <p data-aos="fade-up">Celebrado em 25 de novembro, este dia visa promover a conscientização sobre a violência de gênero e mobilizar ações para erradicá-la. A data foi estabelecida pela Organização das Nações Unidas (ONU) em 1999 e é um chamado à ação para governos, organizações e indivíduos no combate à violência contra as mulheres.</p>
+        <p data-aos="fade-up">Apesar dos avanços, a violência contra a mulher permanece uma questão global significativa. O dia serve para lembrar que a luta deve continuar até que a violência contra a mulher seja erradicada em todas as suas formas.</p>
+        <img src="violencia.png" alt="Imagem de conscientização" class="img-fluid rounded shadow">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
